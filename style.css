@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/618969516/photo/silhouette-of-girl-standing-alone-in-pine-forest-at-twilight.jpg?s=612x612&w=0&k=20&c=VMtOOPeuOCs1iIoMelNtAKI0jLjYxywgh3vacPy63nY=');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: lato,sans-serif;
+    background-color:#ee776d;
+    padding: 10px;
+    color: #efeaea;
+    border-radius: 2px;
+}
+
+.about {
+    width: 100%;
+    height: 40vh;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom:50px;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.explore {
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://media.istockphoto.com/id/603858864/photo/walk-in-breathtaking-light-of-the-autumn-forest.jpg?s=612x612&w=0&k=20&c=tUACkE8zBU3qrL-Z-kMEPbAGcllira0mHpj11vtJDM0=');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore h2 {
+    font-size: 2em;
+    font-family: lato,sans-serif;
+    background-color: #dc9494;
+    padding: 10px;
+    color: #101010;
+    border-radius: 2px;
+}
+
+.about2 {
+    width: 100%;
+    background-color: #383535;
+    padding: 60px;
+    color: #fff;
+}
+
+ul li {
+    list-style:square;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.look {
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://media.istockphoto.com/id/465798282/photo/time-for-yoga.jpg?s=612x612&w=0&k=20&c=QP_Ghpm5n5FFgZh_Eqq6gYpI15WVQxJc1z0roaFyzpw=');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.look h2 {
+    font-size: 2em;
+    background-color: #1e1c1c;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.protect {
+    width: 100%;
+    background-color: #383535;
+    padding: 60px;
+    color: #fff;
+}
+
+footer {
+    background-image: url('https://media.istockphoto.com/id/1460253824/photo/closeup-of-woman-hands-who-typing-working-as-remote-developer-woman-coding-out-of-office.jpg?s=612x612&w=0&k=20&c=Lejpma3ReUvAftN31QbzQMhJZiBtmchC7E30slRjy74=');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: #383535;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* for mobiles */
+
+@media only screen and (max-width:460px){
+
+    h1 {
+        font-size: 2em;
+        font-family: lato,sans-serif;
+        background-color:#474443;
+        padding: 10px;
+        color: #efeaea;
+        border-radius: 2px;
+    }
+
+    .about {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .about h2 {
+       font-size: 1.5em;
+    }
+
+    .explore h2 {
+        font-size: 1.5em;
+        font-family: lato,sans-serif;
+        background-color: #e1d4d4;
+        padding: 10px;
+        color: #101010;
+        border-radius: 2px;
+    }
+
+    .look h2 {
+        font-size: 1.5em;
+        background-color: #e817d7;
+        color: #d8d0d0;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    footer h2 {
+        font-size:1.1em;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        background-color: #c8c815;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+ 
+
+
+
+}
+
+/* for mobiles */
+
+@media only screen and (max-width:550px) {
+
+    h1 {
+        font-size: 2em;
+        font-family: lato,sans-serif;
+        background-color:#474443;
+        padding: 10px;
+        color: #efeaea;
+        border-radius: 2px;
+    }
+
+    .about {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .about h2 {
+       font-size: 1.5em;
+    }
+
+    .explore h2 {
+        font-size: 1.5em;
+        font-family: lato,sans-serif;
+        background-color: #e1d4d4;
+        padding: 10px;
+        color: #101010;
+        border-radius: 2px;
+    }
+
+    .look h2 {
+        font-size: 1.5em;
+        background-color: #e817d7;
+        color: #d8d0d0;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    footer h2 {
+        font-size:1.1em;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        background-color: #c8c815;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+ }
